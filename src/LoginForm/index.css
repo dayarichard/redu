@@ -1,0 +1,42 @@
+@media all and (min-width:576px){
+
+    .login-form-contaniner{
+        background-color: rgb(252, 250, 249);
+        min-height: 100vh;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #ee9ca7;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        
+    }
+
+    .login-card{
+        min-height: 250px;
+        width:300px;
+        border: 1px solid rgb(253, 248, 248);
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #abbaab;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ffffff, #fafdfa);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ffffff, #f9fef9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+    /* input{
+        height: 40px;
+        width: 200px;
+        border: 2px solid black;
+    } */
+    .loginbtn{
+        margin-left: 0;
+        margin-right: 50px;
+    }
+    
+}

@@ -1,0 +1,34 @@
+
+// Get all contacts:
+// method: get
+// http://192.168.4.109:8080/api/contacts
+
+// Create contact:
+// method: post
+// body: {
+//     "name":"shekar",
+//     "email":"shekar@gmail.com",
+//     "phone":"98789587452"
+// }
+// http://192.168.4.109:8080/api/contacts
+
+// Update contact:
+// method: put
+// body: {
+//     "name":"shekar",
+//     "email":"shekar@gmail.com",
+//     "phone":"98789587452"
+// }
+// http://192.168.4.109:8080/api/contacts/<contactId>
+// Ex: http://192.168.4.109:8080/api/contacts/7
+
+// Get contact details:
+// method: get
+// http://192.168.4.109:8080/api/contacts/<contactId>
+// Ex: http://192.168.4.109:8080/api/contacts/7
+
+// Delete contact:
+// method: delete
+// http://192.168.4.109:8080/api/contacts/<contactId>
+// Ex: http://192.168.4.109:8080/api/contacts/7
+
