@@ -172,7 +172,7 @@ export default function CreateForm(props) {
                     <td>
                       <button className='table-btn' onClick={()=>deleteHandler(val.id)}><MdDeleteOutline title='Delete'/></button>
                       <button className='table-btn' onClick={()=>editHandler(val)}><FiEdit /></button>
-                      <Link to = {`view/${val.id}`} ><GrFormView /></Link>
+                      <Link to = {`view/${val.id}`} ><GrFormView /> hi</Link>
                     </td>
                   </tr>
                 );
